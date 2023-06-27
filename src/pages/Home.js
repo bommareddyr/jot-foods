@@ -35,9 +35,9 @@ function Home() {
                 </div>
             </div>
             <div>
-            <h1 class="heading">Amazing health solution whatever your needs</h1>
+            <h1 className="heading">Amazing health solution whatever your needs</h1>
             <br/>
-                <p class="line-text">Lorem ipsum dolor conse ctetur adipisicing elit sed do eiusmo tem incididunt labore apericons.</p>
+                <p className="line-text">Lorem ipsum dolor conse ctetur adipisicing elit sed do eiusmo tem incididunt labore apericons.</p>
             <div className="container">
                 <div className="grid-container">
                      <div className="grid-item">
