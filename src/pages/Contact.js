@@ -23,7 +23,7 @@ function ContactUs() {
             We appreciate your interest and look forward to serving you with delicious Telugu cuisine.</p>
         <div className="columns data-form">
             <div className="column">
-            <div class="image-container">
+            <div className="image-container">
             <img src= {image} alt="Contact" className='image-logo' />
             </div>
             <div className="contact-info">
