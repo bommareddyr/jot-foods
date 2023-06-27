@@ -1,0 +1,81 @@
+.createnew {
+    position: relative;
+    background-image: url('../Images/blurred-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+}
+
+
+.contact-us {
+    margin-left: 200px;
+    width: 80%;
+    text-align: center;
+    padding: 175px;
+}
+
+.data-form {
+    margin-top: 75px;
+}
+/* .contact-us {
+    width: 75%;
+  } */
+
+.submit-button {
+    width: 30%; 
+    margin-top: 15px;
+    border:none;
+    border-radius: 10px;
+    margin-right: 148px;
+}
+
+
+.columns {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
+
+.column img {
+    border-radius: 25%;
+    
+}
+
+.image-logo {
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.form-contact input {
+    border-radius: 10px;
+}
+
+.form-contact input:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}
+
+.form-contact select {
+    border-radius: 10px;
+}
+
+.form-contact select:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}
+
+.form-contact textarea {
+    border-radius: 10px;
+}
+
+.form-contact textarea:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}

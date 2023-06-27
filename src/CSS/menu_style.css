@@ -1,0 +1,284 @@
+.container, .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    /* padding-top: 0; */
+}
+.c-item {
+   height: 480px; 
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+.menu-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Optional: Adjust the height as needed */
+  }
+  
+  .menu-buttons button {
+    margin: 10px;
+    background-color: #0a0213;
+  }
+
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .menu-item {
+    text-align: center;
+  }
+
+  .menu-item-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .menu-item-actions button {
+    margin: 5px;
+  }
+
+  .menu-item-actions button {
+    margin: 5px;
+  }
+
+  .center-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+  }
+
+  .navigation {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    background: white;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+    text-align: center;
+  }
+
+.navigation a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+.navigation a.selected {
+  color: green;
+  font-weight: bold;
+}
+
+.navigation .animation {
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    z-index: 0;
+    background: darkgreen;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+
+}
+
+.navigation a:nth-child(1) {
+    width: 100px;
+}
+
+.navigation .start-breakfast, .navigation a:nth-child(1):hover~.animation {
+    width: 100px;
+    left:10%;
+}
+
+.navigation a:nth-child(2) {
+    width: 110px;
+}
+
+.navigation .start-lunch, .navigation a:nth-child(2):hover~.animation {
+    width: 100px;
+    left:150px;
+}
+
+.navigation a:nth-child(3) {
+    width: 100px;
+}
+
+.navigation .start-dinner, .navigation a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 255px;
+}
+
+.sub-item {
+    display: grid;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 10%;
+    height: 10%;
+  }
+
+  .menu-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+  }
+
+  .grid-container {
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Scale the image to cover the entire container */
+    object-position: center; /* Center the image within the container */
+  }
+  
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #444;
+  }
+
+  .menu-all {
+    padding-top: 35px;
+    padding-bottom: 50px;
+  }
+
+  .card .img-fit {
+    aspect-ratio: 16 / 12;
+    object-fit: cover;
+}
+
+.card {
+    /* display: flex; */
+    height: 400px;
+    border-radius: 10px;
+    /* flex-direction: column; */
+    overflow: hidden;
+}
+
+.card-body {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.ingredients-card {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients-list li {
+  list-style: none;
+  border-radius: 15px;
+  margin: 0 5px;
+  background-color: rgb(236, 233, 233);
+  padding: 2px;
+  width: 85px;
+  text-align: center;
+}
+
+.order-now {
+  text-align: center;
+  justify-content: center;
+  background-color: green;
+  border-radius: 20px;
+  width: 75%;
+  margin-left: 35px;
+}
+
+.mybutton {
+  color: white;
+}
+
+.spicy {
+  font-size: 1em;
+  color: Tomato;
+  margin-right: 3px;
+}
+
+.sambar {
+  font-size: 1em;
+  color: gold;
+  margin-right: 3px;
+}
+
+.chutney, .leaves {
+  font-size: 1em;
+  color: darkgreen;
+  margin-right: 3px;
+}
+
+.milk {
+  font-size: 1em;
+  color: black;
+  margin-right: 3px;
+}
+
+.curd {
+  font-size: 1em;
+  color: blue;
+  margin-right: 3px;
+}
+
+.meat {
+  font-size: 1em;
+  color: brown;
+  margin-right: 3px;
+}
+
+.recommended {
+  font-size: 1em;
+  color: pink;
+  margin-right: 3px;
+}
+
+.new {
+  font-size: 1em;
+  color: blue;
+  margin-right: 3px;
+}
+
+.best-seller {
+  font-size: 1em;
+  color: darkred;
+  margin-right: 3px;
+}
+
+
+.card-text {
+    /* flex: 1; */
+    flex-grow: 1;
+}
+
+@media (max-width: 767.98px) {
+    .card .img-fit {
+        aspect-ratio: 1.45 / 1;
+        object-fit: cover;
+    }
+}
+  
+  

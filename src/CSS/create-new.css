@@ -1,0 +1,106 @@
+body.no-padding-bottom {
+    padding-bottom: 0;
+}
+
+.createNew {
+    background-image: url('../Images/pexels-evie-shaffer-3825880.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+.container-createnew {
+    display: flex;
+    align-items: center;
+    padding: 75px 0px;
+}
+
+.form-container {
+    margin-top: 25%;
+    margin-left: 300px;
+    position: relative;
+    /* background-color: rgba(249, 249, 249, 0.5); */
+    /* backdrop-filter: blur(50px); */
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* border-radius: 8px; */
+    width: 400px;
+    height: auto;
+    align-items: center;
+    overflow: hidden;
+    /* margin-right: 0px; */
+    /* margin-left: 0px; */
+}
+
+
+.item {
+    color: black;
+}
+.form-container input {
+    border-radius: 10px;
+}
+
+.form-container input:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}
+
+.form-container select {
+    border-radius: 10px;
+}
+
+.form-container select:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}
+
+.form-container textarea {
+    border-radius: 10px;
+}
+
+.form-container textarea:focus {
+    box-shadow: 0 0 0;
+    border: 2px solid green;
+}
+
+
+.create-button {
+    border:none;
+    border-radius: 10px;
+}
+
+.btn-google {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 9px 12px;
+}
+
+.google-button {
+    border: none;
+    background-color: white;
+}
+
+.google-button img {
+    margin-right: 10px;
+    float: left;
+}
+
+.text {
+    margin-left: 20px;
+    color: grey;
+}
+
+.text h1 {
+    font-size: 60px;
+    color: lightgrey
+}
+
+.quotes-telugu {
+    margin-left: 10px;
+    margin-right: 200px;
+    color: black;
+}

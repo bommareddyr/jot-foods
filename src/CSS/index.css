@@ -1,0 +1,46 @@
+.container-fluid.first-one {
+    padding-left: 0;
+    background-color: rgba(245,246,250,255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.welcome-header-className {
+    background-color: rgba(245,246,250,255);
+    margin-top: 30vh;
+}
+
+.welcome-image {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.col-md-6.image-className {
+    padding-right: 0;
+}
+
+.container-fluid.second-one {
+    background-color: rgba(245,246,250,255);
+}
+
+.hello-container {
+    position: relative;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.welcome-h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 60px;
+}
+
+.welcome-p {
+    font-family: 'Great Vibes', cursive;
+}
+
+.btn.order-button {
+    border-radius: 20px;
+}
