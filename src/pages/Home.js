@@ -44,7 +44,7 @@ function Home() {
                          <img src="1.png" alt="Image 1" />
                              <p className="text-paragraph">NATURAL FOOD</p>
                              <br/>
-                            <p className="text-paragraph">Lorem ipsum dolor conse ctetur adipisicing elit sed do eiusmo tem incididunt labore apericons.</p>
+                            <p className="text-paragraph">Lorem ipsum dolor conse ctetur adipisicing elit sed do eiusmo tem incididunt laboreapericons.</p>
                         </div>
                 <div className="grid-item">
                     <img src="2.png" alt="Image 2"/>
@@ -52,7 +52,7 @@ function Home() {
                     <br/>
                     <p className="text-paragraph">Lorem ipsum dolor conse ctetur 
                         adipisicing elit sed do eiusmo 
-                        tem incididunt labore apericons.</p>
+                        tem incididunt laboreapericons.</p>
                 </div>
                 <div className="grid-item">
                     <img src="3.png" alt="Image 3" />
@@ -60,7 +60,7 @@ function Home() {
                     <br/>
                     <p className="text-paragraph">Lorem ipsum dolor conse ctetur 
                         adipisicing elit sed do eiusmo 
-                        tem incididunt labore apericons.</p>
+                        tem incididunt laboreapericons.</p>
                 </div>
                 <div className="grid-item">
                     <img src="4.png" alt="Image 4" />
@@ -68,7 +68,7 @@ function Home() {
                     <br/>
                     <p className="text-paragraph">Lorem ipsum dolor conse ctetur 
                         adipisicing elit sed do eiusmo 
-                        tem incididunt labore apericons.</p>
+                        tem incididunt laboreapericons.</p>
                 </div>
             </div>
             </div>

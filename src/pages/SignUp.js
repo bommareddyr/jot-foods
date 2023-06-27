@@ -60,7 +60,7 @@ const SignUp = () => {
       }, []);
 
   return (
-    <div class = "createNew">
+    <div className = "createNew">
     <div className="container-createnew">
         <div className="row">
             <div className="col-lg-7 col-md-12 d-flex align-items-center">
