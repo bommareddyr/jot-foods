@@ -37,7 +37,7 @@ function NavigationBar() {
     return (
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div className="container">
-                <a className="navbar-brand" href="index.html">Joy Of Telugu Cuisine</a>
+                <a className="navbar-brand" href="/">Joy Of Telugu Cuisine</a>
                 <div className="navbar-collapse collapse">
                     <ul className="navbar-nav align-items-center mr-auto">
                         <li className="nav-item">
