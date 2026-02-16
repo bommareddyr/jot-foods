@@ -1,0 +1,39 @@
+server:
+  port: 8080
+
+# Contrast Security Configuration
+contrast:
+  security:
+    api-url: https://contrast-security.company.com/api
+    api-key: ${CONTRAST_API_KEY:your-api-key-here}
+    username: ${CONTRAST_USERNAME:your-username}
+    service-key: ${CONTRAST_SERVICE_KEY:your-service-key}
+    organization-id: ${CONTRAST_ORG_ID:your-org-id}
+    timeout: 30000 # 30 seconds
+
+# OpenShift Configuration
+openshift:
+  api-url: ${OCP_API_URL:https://api.ocp.company.com:6443}
+  token: ${OCP_TOKEN:your-ocp-token}
+  namespace: ${OCP_NAMESPACE:qa}
+  timeout: 30000
+
+# PAC Configuration
+pac:
+  api-url: ${PAC_API_URL:https://pac.company.com/api}
+  api-key: ${PAC_API_KEY:your-pac-api-key}
+  timeout: 15000
+
+# Route Testing Configuration
+route:
+  testing:
+    timeout: 10000 # 10 seconds per route
+    max-concurrent: 5 # Maximum concurrent route tests
+    retry-attempts: 2
+
+# Logging
+logging:
+  level:
+    com.company.iast: DEBUG
+    org.springframework.web: INFO
+    io.fabric8: WARN
